@@ -3,13 +3,13 @@
 
 module BCD_Counter_tb;
     
-    reg [3:0] D;         // Data Input D
+    reg [3:0] D;            // Data Input D
     reg ENABLE;             // Enable signal for counter operation
     reg LOAD;               // Load signal to load data into the counter
     reg UP;                 // Up/Down control signal (1 for up-counting)
     reg CLK;                // Clock signal for synchronization
     reg CLR;                // Clear signal to reset the counter
-    wire [3:0] Q;        // 4-bit output reflecting the current counter value
+    wire [3:0] Q;           // 4-bit output reflecting the current counter value
     wire CO;                // Carry Output signal indicating counter overflow
     
     parameter ClockPeriod = 20;     // ClockPeriod is 20 ns
