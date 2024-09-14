@@ -23,7 +23,7 @@ A block diagram of the BCD counter:
   "BCD Counter Block Diagram"
 </p>
 
-### Deliverables
+## Deliverables
 
 The task was to write a Verilog description of the BCD counter. For this project, I went with a behavioral description because it is straightforward and easy to understand.
 
@@ -36,7 +36,7 @@ For the simulation, I followed these steps:
 3. Decrement the counter once.
 4. Clear the counter.
 
-### Results
+## Results
 
 <p align="center">
   <img width="1100" alt="BCD Counter Simulation Results" src="https://github.com/user-attachments/assets/a1852ba7-ff55-426b-8a7e-a1c40ff863cc">
@@ -45,7 +45,7 @@ For the simulation, I followed these steps:
   "BCD Counter Simulation Results"
 </p>
 
-### Files
+## Files
 
 - `BCD_Counter.v`: The Verilog description of the BCD counter.
 - `BCD_Counter_tb.v`: The testbench used to simulate the counter.
